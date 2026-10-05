@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoRota SPX - Automação de Rotas para Entregadores</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .bg-gradient-custom {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+        }
+        .card-glow {
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+        .card-glow:hover {
+            border-color: #f97316;
+            box-shadow: 0 0 20px rgba(249, 115, 22, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-orange-500 selection:text-white">
+
+    <!-- Navbar -->
+    <nav class="border-b border-slate-800 bg-slate-900/80 backdrop-blur-md fixed top-0 w-full z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fa-solid fa-bolt text-orange-500 text-2xl"></i>
+                <span class="font-bold text-xl tracking-wider">AutoRota <span class="text-orange-500">SPX</span></span>
+            </div>
+            <a href="#planos" class="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-4 py-2 rounded-lg text-sm transition">
+                Testar Grátis
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 px-4 max-w-5xl mx-auto text-center">
+        <span class="bg-orange-500/10 text-orange-400 border border-orange-500/20 px-4 py-1.5 rounded-full text-xs font-semibold tracking-wide uppercase">
+            ⚡ Captura de Rotas em até 2 Segundos
+        </span>
+        <h1 class="text-4xl md:text-6xl font-extrabold mt-6 leading-tight">
+            Nunca Mais Perca uma Rota do WhatsApp na <span class="text-orange-500">SPX</span>
+        </h1>
+        <p class="text-slate-400 text-lg md:text-xl mt-6 max-w-3xl mx-auto">
+            O assistente automatizado que monitora os grupos e clica automático no nome da sua rota no segundo exato em que o analista soltar.
+        </p>
+
+        <!-- Vídeo de Demonstração -->
+        <div class="mt-10 max-w-3xl mx-auto rounded-2xl overflow-hidden border border-slate-800 shadow-2xl bg-slate-900 aspect-video relative flex items-center justify-center">
+            <!-- COLOQUE SEU VÍDEO DO YOUTUBE/VIMEO AQUI -->
+            <iframe class="w-full h-full" src="https://www.youtube.com/embed/SEU_VIDEO_AQUI" title="Demonstração AutoRota SPX" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- Benefícios -->
+    <section class="py-16 bg-slate-900/50 border-y border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="p-6 rounded-xl bg-slate-900 border border-slate-800">
+                <div class="w-12 h-12 bg-orange-500/10 rounded-lg flex items-center justify-center text-orange-500 text-2xl mb-4">
+                    <i class="fa-solid fa-gauge-high"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Velocidade Máxima</h3>
+                <p class="text-slate-400 text-sm">Garante a rota antes do grupo lotar. Pega em menos de 2 segundos direto no WhatsApp Web.</p>
+            </div>
+            <div class="p-6 rounded-xl bg-slate-900 border border-slate-800">
+                <div class="w-12 h-12 bg-orange-500/10 rounded-lg flex items-center justify-center text-orange-500 text-2xl mb-4">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Fácil Instalação</h3>
+                <p class="text-slate-400 text-sm">Instalador simples em 1 clique. Acompanha vídeo tutorial passo a passo mostrando como usar.</p>
+            </div>
+            <div class="p-6 rounded-xl bg-slate-900 border border-slate-800">
+                <div class="w-12 h-12 bg-orange-500/10 rounded-lg flex items-center justify-center text-orange-500 text-2xl mb-4">
+                    <i class="fa-solid fa-key"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Licença Segura</h3>
+                <p class="text-slate-400 text-sm">Acesso individual e exclusivo via chave de validação vinculada ao seu computador.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Planos e Preços -->
+    <section id="planos" class="py-20 px-4 max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold">Escolha o Melhor Plano para Você</h2>
+            <p class="text-slate-400 mt-3">Comece com 2 dias grátis sem compromisso ou assine a licença de uso.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+            
+            <!-- Card 2 Dias Grátis -->
+            <div class="card-glow bg-slate-900 rounded-2xl p-8 flex flex-col justify-between">
+                <div>
+                    <span class="text-slate-400 text-sm font-semibold">TESTE SEM CUSTO</span>
+                    <h3 class="text-2xl font-bold mt-2">2 Dias Grátis</h3>
+                    <div class="my-6">
+                        <span class="text-4xl font-extrabold">R$ 0</span>
+                        <span class="text-slate-400">/ 2 dias</span>
+                    </div>
+                    <ul class="space-y-3 text-sm text-slate-300 mb-8">
+                        <li class="flex items-center"><i class="fa-solid fa-check text-green-500 mr-2"></i> Acesso total a todas as funções</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-green-500 mr-2"></i> Suporte para configuração</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-green-500 mr-2"></i> Sem necessidade de cartão</li>
+                    </ul>
+                </div>
+                <!-- COLE SEU LINK DO GOOGLE FORMS AQUI -->
+                <a href="LINK_DO_SEU_GOOGLE_FORMS" target="_blank" class="w-full text-center bg-slate-800 hover:bg-slate-700 text-white font-semibold py-3 rounded-xl transition">
+                    Pedir Teste Grátis
+                </a>
+            </div>
+
+            <!-- Card Plano Semanal -->
+            <div class="card-glow bg-slate-900 rounded-2xl p-8 flex flex-col justify-between">
+                <div>
+                    <span class="text-slate-400 text-sm font-semibold">PLANO FLEXÍVEL</span>
+                    <h3 class="text-2xl font-bold mt-2">Semanal</h3>
+                    <div class="my-6">
+                        <span class="text-4xl font-extrabold">R$ 9,99</span>
+                        <span class="text-slate-400">/ semana</span>
+                    </div>
+                    <ul class="space-y-3 text-sm text-slate-300 mb-8">
+                        <li class="flex items-center"><i class="fa-solid fa-check text-green-500 mr-2"></i> Válido por 7 dias corridos</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-green-500 mr-2"></i> Chave gerada instantaneamente</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-green-500 mr-2"></i> Atualizações automáticas</li>
+                    </ul>
+                </div>
+                <!-- COLE O LINK DE CHECKOUT DA KIWIFY DO PLANO SEMANAL AQUI -->
+                <a href="LINK_KIWIFY_SEMANAL" target="_blank" class="w-full text-center bg-slate-800 hover:bg-slate-700 text-white font-semibold py-3 rounded-xl transition">
+                    Assinar Semanal
+                </a>
+            </div>
+
+            <!-- Card Plano Mensal (Destaque) -->
+            <div class="card-glow bg-slate-900 border-2 border-orange-500 rounded-2xl p-8 flex flex-col justify-between relative shadow-xl">
+                <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+                    Mais Vendido
+                </span>
+                <div>
+                    <span class="text-orange-400 text-sm font-semibold">MELHOR CUSTO-BENEFÍCIO</span>
+                    <h3 class="text-2xl font-bold mt-2">Mensal</h3>
+                    <div class="my-6">
+                        <span class="text-4xl font-extrabold text-orange-500">R$ 49,90</span>
+                        <span class="text-slate-400">/ mês</span>
+                    </div>
+                    <ul class="space-y-3 text-sm text-slate-300 mb-8">
+                        <li class="flex items-center"><i class="fa-solid fa-check text-orange-500 mr-2"></i> Válido por 30 dias corridos</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-orange-500 mr-2"></i> Economia de mais de 30%</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-orange-500 mr-2"></i> Suporte prioritário no WhatsApp</li>
+                    </ul>
+                </div>
+                <!-- COLE O LINK DE CHECKOUT DA KIWIFY DO PLANO MENSAL AQUI -->
+                <a href="LINK_KIWIFY_MENSAL" target="_blank" class="w-full text-center bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 rounded-xl transition shadow-lg shadow-orange-500/30">
+                    Assinar Mensal
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800 py-8 text-center text-slate-500 text-sm">
+        <p>&copy; 2026 AutoRota SPX. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
